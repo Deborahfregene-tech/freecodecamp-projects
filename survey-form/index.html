@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">National Portrait Gallery Survey</h1>
+    <p id="description">You have just visisted the National Portrait Gallery! Give us a review</p>
+    <form id="survey-form">
+      <label for="name-label" id="name-label">Name (required):</label>
+     <input required
+     id="name"
+     type="text"
+     placeholder="e.g Jane Doe"/>
+     
+    <label for="email-label" id="email-label">Email</label>
+     <input required
+     id="email"
+     type="email"
+     placeholder="myname@email.com" />
+     <label for="number-label" id="number-label">Number</label>
+     <input
+     id="number"
+     type="number"
+     min="11"
+     max="13"
+     placeholder="e.g 07378576608"/>
+     <fieldset>
+      <legend>Was this your first time visiting us?</legend>
+      <input id="yes-option"
+      type="radio"
+      name="gallery-visit"
+      value="yes"/>
+      <label for="yes-option">Yes</label>
+
+      <input id="no-option"
+      type="radio"
+      name="gallery-visit"
+      value="no"/>
+      <label for="no-option">No</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What Section of the Gallery did you like best? Check all that apply</legend>
+        <input
+        type="checkbox"
+        id="Marylin"
+        name="choice"
+        value="Marylin"/>
+        <label for="Marylin">Marylin Monroe Exhibition</label>
+
+        <input
+        type="checkbox"
+        id="Herbert"
+        name="choice"
+        Value="Herbert"/>
+        <label for="Herbert">Herbert Smith Potrait</label>
+
+        <input
+        type="checkbox"
+        id="Opie"
+        name="choice"
+        value="Opie"/>
+        <label for="Opie">Catherine Opie</label>
+        </fieldset>
+      
+      <label for="visit">How was your visist?</label>
+      <select id="dropdown">
+<option value="satisfactory">Satisfactory</option>
+<option selected value="Excellent">Excellent</option>
+        </select>
+          <button id="submit">Submit Form</button>
+        <label for="comments">Comments</label>
+        <textarea cols="30" rows="10" name="comments" id="comments"</textarea>
+        
+        </form>
+  </body>
+</html>
