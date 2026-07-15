@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <nav id="navbar">
+      <header class="navbar-header">GitHub Information</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Configuring_and_Initializing">Configuring and Initializing</a>
+      <a class="nav-link" href="#The_Staging_Area_and_Committing">The Staging Area and Committing</a>
+      <a class="nav-link" href="#Working_with_Branches">Working with Branches</a>
+      <a class="nav-link" href="#Merging_Changes">Merging Changes</a>
+    </nav>
+
+    <main id="main-doc">
+
+      <!-- Section 1 -->
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
+        <ul>
+          <li>Version Control</li>
+          <li>Distributed Architecture</li>
+          <li>Integrity</li>
+        </ul>
+        <p>GitHub focuses on storing your projects, such as an HTML or CSS based experiment.</p>
+        <p>The code will be stored in the exact way you have written it in your software e.g.</p>
+        <code>x = 5; y = 6; z = x + y</code>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="main-section" id="Configuring_and_Initializing">
+        <header>Configuring and Initializing</header>
+        <p>Before you start tracking files, you need to introduce yourself to Git so your commits are associated with your name.</p>
+        <p>Once configured, you can turn any local folder on your computer into a tracking Git repository.</p>
+        <ul>
+          <li>Set your global username.</li>
+          <li>Set your global email address.</li>
+          <li>Initialize a blank repository inside your project's root folder.</li>
+        </ul>
+        <code>git config --global user.name "Your Name"</code>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="main-section" id="The_Staging_Area_and_Committing">
+        <header>The Staging Area and Committing</header>
+        <p>Git has a unique concept called the "Staging Area" (or index). It acts as a draft space where you gather and prepare your changes before permanently saving them.</p>
+        <p>Think of staging as organizing items into a box, and committing as sealing that box with a label.</p>
+        <ul>
+          <li><span class="bold">Modified:</span> You change files in your working directory.</li>
+          <li><span class="bold">Staged:</span> You mark the modified files to go into your next commit.</li>
+          <li><span class="bold">Committed:</span> Git permanently saves the snapshot of your staged files to the database.</li>
+        </ul>
+        <code>git status
+git add filename.txt
+git commit -m "Add a descriptive commit message"</code>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="main-section" id="Working_with_Branches">
+        <header>Working with Branches</header>
+        <p>Branching means you diverge from the main line of development and continue to do work without messing with that main line.</p>
+        <p>In Git, branches are incredibly lightweight and fast. They are simply pointers to specific commits.</p>
+        <ul>
+          <li><span class="bold">Feature Isolation:</span> Work on a new feature or bug fix in a safe sandbox.</li>
+          <li><span class="bold">Collaboration:</span> Multiple developers can work on different parts of the code simultaneously.</li>
+        </ul>
+        <code>git branch feature-login
+git checkout feature-login</code>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="main-section" id="Merging_Changes">
+        <header>Merging Changes</header>
+        <p>Once you have finished working on your feature branch and have thoroughly tested it, you need to bring those changes back into your main codebase. This process is called merging.</p>
+        <p>Git will look at the history of both branches and combine the code automatically.</p>
+        <ul>Merge Types:
+          <li><span class="bold">Fast-Forward Merge:</span> Occurs if the main branch hasn't had any new commits since you branched off. Git just moves the pointer forward.</li>
+          <li><span class="bold">Three-Way Merge:</span> Occurs when both branches have diverged with new commits. Git creates a new "merge commit" to tie them together.</li>
+        </ul>
+        <code>git checkout main
+git merge feature-login</code>
+      </section>
+
+    </main>
+  </body>
+</html>
