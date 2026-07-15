@@ -1,0 +1,47 @@
+span
+{display: inline-block;}
+
+tr[class="read"]
+{background-image:linear-gradient(#40C373, #BFE8B8);}
+
+tr[class="to-read"]
+{background-image:linear-gradient(#FFD580, #FFDBBB);}
+
+tr[class="in-progress"]
+{background-image:linear-gradient(#F3A8A8, #BDBDBD);}
+
+tr[class="read"] span[class="status"] 
+{background-image:linear-gradient(#B0E0E6, #87CEEB); border: 2px solid blue;}
+
+tr[class="to-read"] span[class="status"] 
+{background-image:linear-gradient(#B0E0E6, #87CEEB); border: 2px solid blue;}
+
+tr[class="in-progress"] span[class="status"] 
+{background-image:linear-gradient(#B0E0E6, #87CEEB); border: 2px solid blue;}
+
+span[class="status"], span[class^="rate"]
+{height:10px;
+width:100px;
+padding:10px;
+}
+
+span[class^="rate"] > span
+{border: 2px orange solid;
+border-radius:10px;
+margin:10px;
+height:8px;
+width:8px;
+background-color:red;}
+
+span[class~="one"]  :nth-child(1)
+{background-image:linear-gradient(yellow, yellow);}
+
+
+span[class~="two"]  :nth-child(-n+2)
+{background-image:linear-gradient(yellow, yellow);}
+
+span[class~="three"]  span
+{background-image:linear-gradient(yellow, yellow);}
+
+span[class="status"]:hover
+{background-image:linear-gradient(red, red);}
