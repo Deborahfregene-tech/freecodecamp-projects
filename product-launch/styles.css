@@ -1,0 +1,132 @@
+body
+{
+  margin:0;
+  background-color:#87CEEB;
+color:midnightblue;}
+
+h2
+{margin:20px;font-family:Oswald, sans-serif;}
+
+.title
+{font-family:Oswald, sans-serif;
+text-align:center;
+display:inline-flex;
+align-items:center;
+font-size:50px;
+padding:30px;}
+
+#header-img
+{display:inline-flex;
+align-items:center;
+width:65px;
+padding-top:50px;
+padding-left:20px;
+}
+
+
+.nav-link
+{font-family: Open Sans, sans-serif;
+font-size:15px;
+padding:20px;
+padding-right:20px;
+  text-decoration:none;
+  color:white;}
+
+  #nav-bar
+  {
+  position:fixed;
+  top:0;
+  width: 100%;
+ background-color:blue;
+ 
+padding:10px;
+  
+}
+
+.email-h2
+{
+font-family:Oswald, sans-serif;
+  text-align:center;}
+
+  p
+  {font-family: Open Sans, sans-serif;
+  margin:20px;
+  text-align:center;}
+
+  #mail
+  {display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  #submit
+  {background-color:yellow;border:none;
+  padding:5px;
+margin-left:20px;
+  font-weight:bold;
+  }
+
+  form
+  {padding-top:20px;
+  padding-bottom:20px;}
+
+
+.feature-h2
+{color:#00224B; text-align:center;
+display:inline-flex;
+align-items:center;}
+
+  #feature1-img
+  {margin-left:20px;
+  display:inline-flex;
+align-items:center;
+background-color:yellow;
+border-radius:50px;
+width:50px;}
+
+.works-h2
+{text-align:center;}
+#video
+{width:200px;
+height:100%;
+margin:20px;
+display: block;
+margin: 0 auto;}
+
+#price-whole
+{ display:flex;
+  justify-content:space-between;
+}
+
+.pricing
+{border:2px solid midnightblue;
+margin:10px;
+display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 100%;}
+
+#submit-price
+{display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  margin-top: auto; 
+  align-self: center; 
+  text-decoration:none;
+  background-color:yellow;border:none;
+  font-weight:bold;
+  padding:10px;
+  margin-bottom:10px;
+ }
+
+#submit-price:hover
+{background-color:white;}
+
+.price
+{font-weight:bold;
+font-size:20px;}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+    color: white; }}
