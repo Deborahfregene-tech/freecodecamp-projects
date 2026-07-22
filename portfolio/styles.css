@@ -1,0 +1,149 @@
+*
+{margin:0;
+padding:0;}
+
+body
+{background: linear-gradient(#002E5D, #2774AE);
+color:#F8FAFC;
+font-family:'Open Sans', sans-serif;}
+
+#navbar
+{background-color:white;
+padding:10px;
+text-align:right;
+position:fixed;
+width:100%;
+}
+
+.nav-link
+{text-decoration:none;
+margin-right:20px;
+padding-bottom:100px;
+}
+
+.nav-link:hover
+{background-color:#002E5D;
+color:white;
+padding: 3px 3px 2px 3px;
+}
+
+#welcome-section
+{background-color:rgba(255, 255, 255, 0.08);
+padding:100px;
+}
+
+.title
+{
+  font-size:50px;
+  padding-top:80px;
+  padding-bottom:10px;
+  font-family: 'Poppins', monospace;
+  text-align:center;}
+
+  .about-text
+  {text-align:center;}
+
+  .projects-text
+  {text-align:center;
+  padding-top:70px;
+  padding-bottom:20px;}
+
+  .projects-content
+  {display:flex;
+  gap: 20px;
+  justify-content:center;
+  }
+
+  .project-text
+  {text-align:center;
+  background: midnightblue;
+  padding:10px;}
+
+  .project-tile {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  text-align: center;   
+  padding: 15px;
+}
+
+.project-tile img {
+  width: 100%;            
+  max-width: 300px;        
+  height: 200px;           
+  object-fit: cover;       
+  border-radius: 8px;      
+  margin-bottom: 10px; 
+  border: 10px solid midnightblue;
+}
+
+.project-link
+{text-decoration:none;
+color:white;
+padding:10px;}
+
+.link-text
+{
+  text-decoration:none;
+  color:white;
+  text-align:center;
+font-weight:bold;
+font-size:25px;
+padding-bottom:20px;}
+
+
+
+.link-text:hover
+{background-color:yellow;
+color:black;
+text-align:center;}
+
+.contact
+{background-color:#3c89d0;
+padding:20px;}
+
+.contact-title
+{font-size:20px;
+margin:20px;}
+
+.contact-text
+{margin:20px;}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  background-color:white;
+  border-radius:50%;
+  
+}
+
+.contact-link {
+  display: inline-flex;      
+  align-items: center;       
+  gap: 10px;                  
+  color: #F8FAFC;             
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-bottom: 15px; }
+
+  .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  justify-content:center;
+  text-align:center;
+  padding:40px 0;     
+  gap: 10px;
+}
+
+.contact-text
+{text-decoration: none;
+color:white;
+}
+
+.contact-text:hover
+{background-color:red;}
+
+
+  
