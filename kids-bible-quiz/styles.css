@@ -1,0 +1,62 @@
+*
+{margin:0;
+padding:0;
+box-sizing:0;
+box-border:0;}
+
+body {
+  font-family: 'Comic Sans MS ' , sans-serif;
+  background: linear-gradient(90deg, #87CEEB , #02CCFE);
+  display:flex;
+  min-height: 100vh;
+
+}
+#question-score {
+  text-align: center;
+  background-color:white;
+  max-width:500px;
+  width:90%;
+  padding:20px;
+  border-radius:20px;
+  box-shadow: 10px blue ;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+#category-badge {
+  background-color:red;
+color:white;
+  padding:10px;
+  margin:5px;
+  border-radius:20px;
+}
+
+#score-board {
+  font-size:20px;
+  font-weight:bold;
+  margin:20px;
+  
+
+}
+.choice-btn {
+margin:20px;
+  padding:7px;
+  border-radius:20px;
+}
+.choice-btn:hover{
+  background-color:yellow;
+    font-size:15px; }
+  
+  #next-btn {
+    background-color:green;
+    color:white;
+    margin:20px;
+    padding:10px;
+  }
+#next-btn:hover {
+  background-color:pink;
+  color:red;
+}
