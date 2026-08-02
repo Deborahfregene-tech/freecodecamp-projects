@@ -1,5 +1,5 @@
 const questions = [{
- category: "The defeat ofGoliath" ,
+ category: "The defeat of Goliath" ,
   question: "Which person killed Goliath ?" ,
   choices: ["Solomon" , "David" , "Jesus"] ,
   answer: "David" 
