@@ -9,7 +9,11 @@ body {
   background: linear-gradient(90deg, #87CEEB , #02CCFE);
   display:flex;
   min-height: 100vh;
-
+  
+#intro-title {
+  margin:20px;
+  text-align:center;
+  font-size:25px;
 }
 #question-score {
   text-align: center;
