@@ -1,0 +1,22 @@
+body {
+  background-color:#E6E6FA;
+  font-family:'Comic Sans MS', sans-serif;
+  color:purple;
+  text-align:center;
+}
+
+div {
+ 
+  display:inline-block;
+  justify-content:center;
+  align-items:center;
+}
+p {
+  text-align:center;margin:20px;
+}
+
+textarea {
+  width: 200px;
+  height:100px;
+  margin:20px;
+}
