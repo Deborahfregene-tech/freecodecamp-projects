@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark-grey: #0a0a23;
+  --dark-grey: #FFB6C1;
   --white: #ffffff;
   --yellow: #f1be32;
 }
@@ -15,6 +15,7 @@
 body {
   background-color: var(--dark-grey);
   color: var(--white);
+  font-family: 'Comic Sans MS', sans-serif;
 }
 
 h1 {
